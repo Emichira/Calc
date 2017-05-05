@@ -1,0 +1,14 @@
+.header{
+  background-size: cover;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 200px;
+  font-family: Raleway;
+  font-stretch: extra-condensed;
+
+.h1 {
+    font-weight: bolder;
+    font-size: 18;
+    text-decoration-color: gold;
+    font-family: sans-serif;
+    color: #F15A29;
