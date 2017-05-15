@@ -1,5 +1,5 @@
 //business logic
-var pingpong = function(number) {
+var pingPong = function(number) {
   for (var i = 1; i <= number; i++) {
     if (i % 3 === 0 & i % 5 === 0) {
       $("ul#output").append("<li class='remove'> pingpong</li>");
@@ -19,7 +19,7 @@ $(document).ready(function() {
   $("form#ping").submit(function(event) {
     event.preventDefault();
     $("li.remove").remove();
-    var number = parseInt($("input#pingpong").val());
-    pingpong(number)
+    var number = parseInt($("input#pingPong").val());
+    pingPong(number)
   });
 });
