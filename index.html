@@ -7,7 +7,8 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css " rel="stylesheet " type="text/css">
   <script src="js/jquery.js"></script>
-  <script src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/pingpong.js"></script>
+  <script type="text/javascript" src="js/pingpong-interface.js"></script>
 
   <title>Ping-Pong</title>
 </head>
@@ -43,16 +44,12 @@
   <div id="container list">
     <h2>Let's Play</h2>
     <p>Enter your number here:</p>
-    <form id="ping">
-      <div class="form-group">
-        <input id="pingPong" class="submit" type="text" placeholder="number">
-        <button class="btn btn-outline-primary" type="submit">Pingpong</button>
-      </div>
+    <form id="ping-pong-form">
+      <label for="goal">Enter a number:</label>
+      <input id="goal" type="number">
+      <button type="submit">Submit</button>
     </form>
-  </div>
-  <ul id="output">
-
-  </ul>
+    <ul id="solution"></ul>
 </div>
 </div>
 </body>
